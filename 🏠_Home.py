@@ -113,17 +113,17 @@ with st.container():
     with col1:
         st.markdown("""
             <div class="project-card">
-                <h3 style='color: #011B70; margin:0;'>Projeto - Utilização de IA para o desenvolvimento de questões em processos públicos</h3>
+                <h3 style='color: #011B70; margin:0;'>Projeto 1 - Utilização de IA para o desenvolvimento de questões em processos públicos</h3>
                 <p style="margin: 0.5rem 0;"><strong>Superintendência:</strong> SUNOA</p>
                 <p style="margin: 0.5rem 0;"><strong>Gerência:</strong> Gerência Nacional de Operações</p>
                 <p style="margin: 0.5rem 0 1rem 0;"><strong>Proponente:</strong> Jeremias Silva (Administração Pública Processos Seletivos Públicos - Nacional)</p>
             </div>
         """, unsafe_allow_html=True)
     with col2:
-        if st.button("Avaliar Projeto - Utilização de IA para o desenvolvimento de questões em processos públicos  →", key="projeto1"):
+        if st.button("Avaliar Projeto 1 →", key="projeto1"):
             st.switch_page("pages/1_AvaliacaoProjetoIAQuestoes.py")
     with col2:
-        if st.button("Resultado das Avaliações Projeto - Utilização de IA para o desenvolvimento de questões em processos públicos →", key="projeto1result"):
+        if st.button("Resultados Projeto 1 →", key="projeto1result"):
             st.switch_page("pages/1_Resultado Avaliacao IA Questoes.py")
 
 # PROJETO 2
@@ -132,16 +132,16 @@ with st.container():
     with col1:
         st.markdown("""
             <div class="project-card">
-                <h3 style='color: #011B70; margin:0;'>Projeto - Sistema Para Consultas de Parceiros CIEE</h3>
+                <h3 style='color: #011B70; margin:0;'>Projeto 2 - Sistema Para Consultas de Parceiros CIEE</h3>
                 <p style="margin: 0.5rem 0;"><strong>Superintendência:</strong> SUPEX</p>
                 <p style="margin: 0.5rem 0 1rem 0;"><strong>Proponente:</strong> Marcelo Gallo</p>
             </div>
         """, unsafe_allow_html=True)
     with col2:
-        if st.button("Avaliar Projeto - Sistema Para Consultas de Parceiros CIEE →", key="projeto2"):
+        if st.button("Avaliar Projeto 2 →", key="projeto2"):
             st.switch_page("pages/2_AvaliacaoProjetoSistemaConsultaParceiros.py")
     with col2:
-        if st.button("Resultado das Avaliações Projeto - Sistema Para Consultas de Parceiros  →", key="projeto2result"):
+        if st.button("Resultados Projeto 2  →", key="projeto2result"):
             st.switch_page("pages/2_Resultado Avaliacao Sistema Consulta .py")
 
 
