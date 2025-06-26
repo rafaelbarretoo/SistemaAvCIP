@@ -144,13 +144,7 @@ with st.container():
         if st.button("Resultado das Avaliações Projeto - Sistema Para Consultas de Parceiros  →", key="projeto2result"):
             st.switch_page("pages/2_Resultado Avaliacao Sistema Consulta .py")
 
-# Ranking
-with st.container():
-    col1,col2, col3 = st.columns([30,8,30])
-    
-    with col2:
-        if st.button("Ranking", key="Ranking"):
-            st.switch_page("pages/Ranking.py")
+
 
 
 # RODAPÉ
