@@ -321,18 +321,7 @@ else:
     """, unsafe_allow_html=True)
 
 
-# Rodapé
-st.markdown("---")
-with st.container():
-    col1, col2= st.columns([40,40])
 
-    with col1:
-        if st.button("Avaliação Projeto Sistema Para Consulta de Parceiros CIEE ", key="AV2"):
-            st.switch_page("pages/2_AvaliacaoProjetoSistemaConsultaParceiros.py")
-
-    with col2:
-        if st.button("Ranking", key="Ranking"):
-            st.switch_page("pages/Ranking.py")
 
 # Rodapé
 st.markdown("---")
