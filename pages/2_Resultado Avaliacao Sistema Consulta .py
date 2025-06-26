@@ -321,20 +321,7 @@ else:
     """, unsafe_allow_html=True)
 
 
-# Rodapé
-st.markdown("---")
-with st.container():
-    col1,col2 = st.columns([2,2])
-    
 
-    with col1:
-        if st.button("Resultado das Avaliações Projeto IA para Questões", key="Resultado"):
-            st.switch_page("pages/1_Resultado Avaliacao IA Questoes.py")
-
-   
-    with col2:
-        if st.button("Ranking", key="Rankin"):
-            st.switch_page("pages/Ranking.py")
 
 
 # Rodapé
