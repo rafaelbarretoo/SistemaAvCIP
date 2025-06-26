@@ -427,23 +427,7 @@ with col2:
             else:
                 df.to_excel(arquivo, index=False)
                 st.success("✅ Avaliação salva com sucesso!")
-# Rodapé
-st.markdown("---")
-with st.container():
-    col1,col2, col3 = st.columns([2,2,2])
-    
 
-    with col1:
-        if st.button("Resultado das Avaliações Projeto IA para Questões", key="Resultado"):
-            st.switch_page("pages/1_Resultado Avaliacao IA Questoes.py")
-
-    with col2:
-        if st.button("Resultado das Avaliações Projeto Sistema Para Consulta de Parceiros CIEE ", key="AV2"):
-            st.switch_page("pages/2_Resultado Avaliacao Sistema Consulta .py")
-
-    with col3:
-        if st.button("Ranking", key="Ranking"):
-            st.switch_page("pages/Ranking.py")
 
 
 # RODAPÉ
